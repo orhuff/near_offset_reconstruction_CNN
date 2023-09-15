@@ -5,7 +5,7 @@ The "Example_predictions.ipynb" Jupyter Notebook shows near offset reconstructio
 
 The "example_data" folder contains a synthetic CMP gather, synthetic shot gather, and field TopSeis CMP gather, as .npy files.
 
-The "models" folder contains the weights as .h5 files to a CMP-trained and a shot-trained CNN. The architecture is first loaded using the "unet_architecture.py" file and a "ModelBuilder" class in the "Example_predictions.ipynb" notebook.
+The "models" folder contains the weights as .h5 files to CMP-trained and shot-trained CNNs. The architecture is first loaded using the "unet_architecture.py" file and a "ModelBuilder" class in the "Example_predictions.ipynb" notebook.
 
 Example Devito code for generating synthetics along a 2D line (also provided as a .segy file) is located in the "synthetic_generation_code" folder. Note that Devito needs a 'gcc' compiler and may be difficult to get working on Windows. Here is a guide that might help with that: https://medium.com/@soulfoodpst/install-devito-on-windows-a-tool-for-automatic-programming-3def3949e5c8
 
