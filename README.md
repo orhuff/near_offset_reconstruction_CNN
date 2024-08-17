@@ -1,6 +1,5 @@
 # near_offset_reconstruction_CNN
-Code for convolutional neural networks that are trained to reconstruct the near offset gap in marine seismic data. From conference publication (Convolutional Neural Network-based Restoration of Near Offsets in Marine 
-Seismic Data), available here: https://www.researchgate.net/publication/371063451_Convolutional_Neural_Network-based_Restoration_of_Near_Offsets_in_Marine_Seismic_Data
+Code for convolutional neural networks that are trained on synthetics to reconstruct the near offset gap in marine seismic data. Publication describing the work is available here: https://doi.org/10.1111/1365-2478.13505
 
 The "Example_predictions.ipynb" Jupyter Notebook shows near offset reconstruction examples on a synthetic CMP gather, a synthetic shot gather, and a field TopSeis CMP gather. Note that if you want to use the network on your own CMP or shot gathers, they have to be of shape 448 X 40 (time samples X offset samples) for CMPs, or shape 448 X 72 for shots, as these are the shapes the network was trained on.
 
